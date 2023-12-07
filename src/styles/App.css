@@ -1,0 +1,87 @@
+@import './fonts.css';
+
+h1 {
+  font-family: 'Lora', serif;
+  align-self: stretch;
+  color: var(--Dark-Gray, #333);
+  font-size: 52px;
+  line-height: 74px;
+}
+
+.intro span {
+  align-self: stretch;
+  font-size: 40px;
+  line-height: 60px; /* 150% */
+}
+
+body {
+  font-family: 'Montserrat', serif;
+  color: var(--Dark-Gray, #333);
+  background: var(--Warm-White, #F9F9F9);
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.main-page-container {
+  display: flex;
+  padding: 80px 91px;
+  align-items: center;
+  gap: 80px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  flex: 1 0 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+#primary {
+  display: flex;
+  padding: 24px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 5px;
+  border: 2px solid var(--Dark-Gray, #333);
+
+  font-size: 24px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+
+  border-radius: 50px;
+  background: url("../../public/images/intro_image.jpg") center / cover no-repeat;
+}

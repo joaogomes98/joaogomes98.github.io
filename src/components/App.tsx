@@ -1,0 +1,42 @@
+import React from 'react';
+import '../styles/App.css';
+import Header from "./Header"
+
+function App() {
+  return (
+    <div className="App">
+
+      <Header />
+
+      <div className="main-page-container">
+
+        <div className="content">
+
+          <div className="left-side">
+
+            <div className="intro">
+              <h1>“Pixels with Purpose, 
+              <br />
+              Experiences with Impact.”</h1>
+
+              <span>This is the motto I live by.
+              <br />
+              Welcome to my portfolio page!</span>
+            </div>
+
+            <div id="primary" className="button">Explore</div>
+
+          </div>
+
+          <div className="right-side">
+          </div>
+          
+        </div>
+
+      </div>
+
+    </div>
+  );
+}
+
+export default App;
