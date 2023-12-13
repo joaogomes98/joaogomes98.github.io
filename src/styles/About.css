@@ -1,0 +1,55 @@
+.about-intro span {
+    align-self: stretch;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.about-container {
+    display: flex;
+    padding: 40px 91px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.about-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.about-more-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.info-container span {
+    align-self: stretch;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.info-container {
+    display: flex;
+    width: 60%;
+    padding: 33px 65px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+
+    background: #F1F1F1;
+}
+
+.picture {
+    flex: 1 0 0;
+    align-self: stretch;
+
+    background: url("../../public/images/photo.jpg") center / cover no-repeat;
+}
+  
