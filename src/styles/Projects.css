@@ -7,12 +7,20 @@
     gap: 40px;
     flex: 1 0 0;
     align-self: stretch;
+
+    background-color: #1f1e21;
+}
+
+.projects-intro h2 {
+    color: var(--Warm-White, #F9F9F9);
 }
 
 .projects-intro span{
     align-self: stretch;
     font-size: 20px;
     line-height: 35px;
+
+    color: var(--Warm-White, #F9F9F9);
 }
 
 .projects-intro {

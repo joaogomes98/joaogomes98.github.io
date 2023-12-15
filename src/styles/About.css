@@ -6,7 +6,7 @@
 
 .about-container {
     display: flex;
-    padding: 40px 91px;
+    padding: 80px 91px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
