@@ -21,13 +21,9 @@ function App() {
               <br />
               Welcome to my portfolio page!</span>
             </div>
-            <button className="pushable">
-              <span className="shadow"></span>
-              <span className="edge"></span>
-              <span className="front">
-                Explore
-              </span>
-            </button>
+            <div className="button" id="primary">
+              <span>Explore</span>
+            </div>
           </div>
         </div>
       </div>

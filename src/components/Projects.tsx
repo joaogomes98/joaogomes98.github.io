@@ -16,13 +16,13 @@ function Projects() {
             <div className="projects-cards-container">
                 <div className="row">
                     <div className="project-card">
-                        <img src="./images/photo.jpg" alt="project-1"></img>
+                        <img src="./images/matchbox-logo.png" alt="project-1"></img>
                     </div>
                     <div className="project-card">
-                        <img src="./images/photo.jpg" alt="project-1"></img>
+                        <img src="./images/snackerz-logo.png" alt="project-1"></img>
                     </div>
                     <div className="project-card">
-                        <img src="./images/photo.jpg" alt="project-1"></img>
+                        <img src="./images/animalcare-logo.png" alt="project-1"></img>
                     </div>
                 </div>
             </div>

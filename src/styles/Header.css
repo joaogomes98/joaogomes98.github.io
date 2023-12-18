@@ -1,15 +1,18 @@
 .Header {
+    width: 100%;
     display: flex;
-    padding: 36px 60px;
+    padding: 25px 60px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    box-sizing: border-box;
     gap: 10px;
     align-self: stretch;
+    position: fixed;
 
     background: var(--Warm-White, #F9F9F9);
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
-    font-size: 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    font-size: 18px;
 }
 
 .header-container {
