@@ -3,6 +3,7 @@ import '../styles/App.css';
 import Header from "./Header";
 import About from "./About";
 import Projects from "./Projects";
+import { scrollTo } from '../scripts/utils';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
               <br />
               Welcome to my portfolio page!</span>
             </div>
-            <div className="button" id="primary">
+            <div className="button" id="primary" onClick={() => scrollTo('about-section', 2000)}>
               <span>Explore</span>
             </div>
           </div>

@@ -17,12 +17,27 @@ function Projects() {
                 <div className="row">
                     <div className="project-card">
                         <img src="./images/matchbox-logo.png" alt="project-1"></img>
+                        <div className="project-info">
+                            <h3>MATCHBOX</h3>
+                            <span>An app for project matchmaking that matches people and ideas.</span>
+                            <div className="button" id="primary">View Details</div>
+                        </div>
                     </div>
                     <div className="project-card">
                         <img src="./images/snackerz-logo.png" alt="project-1"></img>
+                        <div className="project-info">
+                            <h3>SNACKERZ</h3>
+                            <span>An app for food ordering revolving around snacks.</span>
+                            <div className="button" id="primary">View Details</div>
+                        </div>
                     </div>
                     <div className="project-card">
                         <img src="./images/animalcare-logo.png" alt="project-1"></img>
+                        <div className="project-info">
+                            <h3>ANIMALCARE</h3>
+                            <span>An app for animal adoption and the preservation of the wildlife.</span>
+                            <div className="button" id="primary">View Details</div>
+                        </div>
                     </div>
                 </div>
             </div>
