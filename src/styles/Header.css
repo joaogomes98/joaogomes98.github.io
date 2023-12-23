@@ -35,3 +35,32 @@
     gap: 80px;
     flex: 1 0 0;
 }
+
+.header-tabs span {
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+    margin-bottom: 5px;
+}
+
+.header-tabs span:hover {
+    font-weight: bold;
+}
+
+.header-tabs span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--Dark-Gray, #333);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.header-tabs span:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
