@@ -34,7 +34,7 @@ body {
   background: var(--Warm-White, #F9F9F9);
 }
 
-.App {
+.LandingPage {
   width: 100vw;
   display: inline-flex;
   flex-direction: column;
@@ -91,7 +91,7 @@ body {
   }
 }
 
-.button {
+.LandingPage .button {
   display: flex;
   padding: 24px 32px;
   justify-content: center;

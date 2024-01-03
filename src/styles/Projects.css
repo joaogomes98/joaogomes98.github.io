@@ -1,6 +1,6 @@
 .projects-container {
     display: flex;
-    padding: 40px 91px;
+    padding: 80px 91px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -108,7 +108,7 @@
 
         span {
             letter-spacing: 1px;
-            font-size: 24px;
+            font-size: 20px;
             margin-top: 8px;
             margin-bottom: 30px;
         }
@@ -116,7 +116,7 @@
         #primary {
             width: 30%;
             height: 10px;
-            font-size: 20px;
+            font-size: 18px;
         }
 
         #primary:hover {

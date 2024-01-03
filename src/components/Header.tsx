@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
+import { scrollTo } from '../scripts/utils';
 
 function Header() {
   return (
@@ -9,8 +10,8 @@ function Header() {
                 <span>João Gomes</span>
             </div>
             <div className="header-tabs">
-                <span>About</span>
-                <span>Projects</span>
+                <span onClick={() => scrollTo('about-section', 2000)}>About</span>
+                <span onClick={() => scrollTo('projects-section', 2000)}>Projects</span>
                 <span>Contacts</span>
             </div>
         </div>

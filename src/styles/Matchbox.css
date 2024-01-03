@@ -1,0 +1,101 @@
+.Matchbox {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--Warm-White, #F9F9F9);
+}
+
+.Matchbox .button {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: var(--Warm-White, #F9F9F9);
+}
+
+.Matchbox .button:hover {
+    color: var(--Dark-Gray, #333);
+}
+
+
+.landing-section {
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+    width: 100%;
+    align-items: center;
+}
+
+.Matchbox h1 {
+    font-family: 'Lora', serif;
+    color: var(--Dark-Gray, #333);
+    font-size: 52px;
+    align-self: stretch;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.Matchbox span {
+    color: var(--Dark-Gray, #333);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.Matchbox h4 {
+    font-family: 'Lora', serif;
+    font-size: 32px;
+    font-style: italic;
+    color: var(--Medium-Gray, #666);
+}
+
+.banner {
+    display: flex;
+    height: 35%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    background: url("../../public/images/matchbox-logo.png") center / cover no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+.title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    text-align: center;
+    height: 45%;
+}
+
+.see-project {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.chevron-container {
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
