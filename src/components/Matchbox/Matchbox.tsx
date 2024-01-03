@@ -1,16 +1,22 @@
 import React from 'react';
 import "../../styles/Matchbox.css";
 import Header from "../Header";
-import { VscChevronDown } from "react-icons/vsc";
+import Summary from './Summary';
+import Research from './Research';
+import { VscFoldDown } from "react-icons/vsc";
+import { VscArrowSmallLeft } from "react-icons/vsc";
 
 function Matchbox() {
   return (
     <div className="Matchbox">
+
       <Header />
+
       <div className="landing-section">
         <div className="banner">
           <div className="button" id="primary">
-            Voltar à página inicial
+            <VscArrowSmallLeft style={{ fontSize: '2em'}}/>
+            To the main page
           </div>
         </div>
         <div className="title">
@@ -20,10 +26,15 @@ function Matchbox() {
         <div className="see-project">
           <span><b>See the project</b></span>
           <div className="chevron-container">
-            <VscChevronDown style={{ fontSize: '2em' }}/>
+            <VscFoldDown style={{ fontSize: '1.5em' }}/>
           </div>
         </div>
       </div>
+
+      <Summary />
+
+      <Research />
+
     </div>
   );
 }

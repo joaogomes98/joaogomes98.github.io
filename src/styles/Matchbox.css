@@ -9,7 +9,7 @@
 
 .Matchbox .button {
     display: flex;
-    padding: 16px 24px;
+    padding: 16px 20px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -20,6 +20,7 @@
 
 .Matchbox .button:hover {
     color: var(--Dark-Gray, #333);
+    font-weight: 700;
 }
 
 
