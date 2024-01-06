@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import '../../styles/LandingPage.css';
 import Header from "../Header";
 import About from "./About";
@@ -5,6 +6,12 @@ import Projects from "./Projects";
 import { scrollTo } from '../../scripts/utils';
 
 function LandingPage() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+
+  }, []);
+
   return (
     <div className="LandingPage">
 
@@ -21,7 +28,7 @@ function LandingPage() {
               <br />
               Welcome to my portfolio page!</span>
             </div>
-            <div className="button" id="primary" onClick={() => scrollTo('about-section', 2000)}>
+            <div className="button-explore" id="primary" onClick={() => scrollTo('about-section', 2000)}>
               <span>Explore</span>
             </div>
           </div>

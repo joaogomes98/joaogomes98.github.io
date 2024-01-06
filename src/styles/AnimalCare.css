@@ -1,4 +1,4 @@
-.Matchbox {
+.AnimalCare {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     background-color: var(--Warm-White, #F9F9F9);
 }
 
-.Matchbox .button {
+.AnimalCare .button {
     display: flex;
     padding: 16px 20px;
     justify-content: center;
@@ -18,7 +18,7 @@
     color: var(--Warm-White, #F9F9F9);
 }
 
-.Matchbox .button:hover {
+.AnimalCare .button:hover {
     color: var(--Dark-Gray, #333);
     font-weight: 700;
 }
@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-.Matchbox h1 {
+.AnimalCare h1 {
     font-family: 'Lora', serif;
     color: var(--Dark-Gray, #333);
     font-size: 52px;
@@ -39,29 +39,30 @@
     padding-top: 50px;
 }
 
-.Matchbox span {
+.AnimalCare span {
     color: var(--Dark-Gray, #333);
     text-align: center;
     font-family: Montserrat;
     font-size: 24px;
 }
 
-.Matchbox h4 {
+.AnimalCare h4 {
     font-family: 'Lora', serif;
     font-size: 32px;
     font-style: italic;
     color: var(--Medium-Gray, #666);
 }
 
-.Matchbox .banner {
+.AnimalCare .banner {
     display: flex;
     height: 35%;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
     align-self: stretch;
-    background: url("../../public/images/matchbox-logo.png") center / cover no-repeat;
+    background: url("../../public/images/animalcare-logo.png") center / cover no-repeat;
     background-size: cover;
+    background-position: 30% 20%;
     padding-top: 30px;
     padding-left: 30px;
 }

@@ -37,14 +37,6 @@
     align-self: stretch;
 }
 
-.section {
-    padding: 0;
-}
-
-.section p {
-    font-size: 20px;
-    line-height: 35px;
-}
 
 .LowFi .gallery-section {
     display: grid;

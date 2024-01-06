@@ -98,6 +98,15 @@ body {
   align-items: center;
   gap: 10px;
   cursor: pointer;
+}
+
+.button-explore {
+  display: flex;
+  padding: 24px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
   transition: background-color 0.3s;
   opacity: 0;
   transform: translateY(50px);

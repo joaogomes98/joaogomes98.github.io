@@ -37,15 +37,6 @@
     align-self: stretch;
 }
 
-.section {
-    padding: 0;
-}
-
-.section p {
-    font-size: 20px;
-    line-height: 35px;
-}
-
 .HiFi .gallery-section {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
