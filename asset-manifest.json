@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.88c0db4b.css",
-    "main.js": "/static/js/main.48c3bfae.js",
+    "main.css": "/static/css/main.87cbe1a1.css",
+    "main.js": "/static/js/main.34305deb.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/matchbox-logo.png": "/static/media/matchbox-logo.3b9d422f89b7d792c20a.png",
     "static/media/about-image.png": "/static/media/about-image.bceac3093635989d18ff.png",
@@ -11,12 +11,12 @@
     "static/media/Lora-Bold.ttf": "/static/media/Lora-Bold.ea8e35d6420e18885a30.ttf",
     "static/media/placeholder.svg": "/static/media/placeholder.49cbf4b7088a614a85d6.svg",
     "index.html": "/index.html",
-    "main.88c0db4b.css.map": "/static/css/main.88c0db4b.css.map",
-    "main.48c3bfae.js.map": "/static/js/main.48c3bfae.js.map",
+    "main.87cbe1a1.css.map": "/static/css/main.87cbe1a1.css.map",
+    "main.34305deb.js.map": "/static/js/main.34305deb.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88c0db4b.css",
-    "static/js/main.48c3bfae.js"
+    "static/css/main.87cbe1a1.css",
+    "static/js/main.34305deb.js"
   ]
 }
