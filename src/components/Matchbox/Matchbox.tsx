@@ -4,6 +4,8 @@ import Header from "../Header";
 import Summary from './Summary';
 import Research from './Research';
 import LowFi from './LowFi';
+import HiFi from "./HiFi";
+import Conclusions from './Conclusions';
 import { VscFoldDown } from "react-icons/vsc";
 import { VscArrowSmallLeft } from "react-icons/vsc";
 import { useNavigate } from 'react-router-dom';
@@ -49,6 +51,10 @@ const Matchbox: React.FC = () => {
       <Research />
 
       <LowFi />
+
+      <HiFi />
+
+      <Conclusions />
 
     </div>
   );

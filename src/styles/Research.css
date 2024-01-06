@@ -79,6 +79,13 @@
     font-weight: 700;
 }
 
+.personas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
 .list {
     display: flex;
     flex-direction: column;
@@ -90,7 +97,7 @@
 .persona {
     display: flex;
     align-items: flex-start;
-    gap: 32px;
+    gap: 40px;
     align-self: stretch;
 }
 
@@ -121,7 +128,7 @@
 
 .photo-cover {
     display: flex;
-    width: 40%;
+    width: 30%;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
