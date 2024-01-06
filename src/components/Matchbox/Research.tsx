@@ -68,13 +68,13 @@ function Research() {
                     <div className="persona">
                         <div className="persona-info">
                             <div className="header">
-                                <h5>Carlos</h5>
-                                <span><em>“Hmmm, where should I start…”</em></span>
+                                <h5>Rita</h5>
+                                <span><em>“I should think about doing something...”</em></span>
                             </div>
-                            <p><b>Bio:</b> 17 years old, highschool student, portuguese</p>
-                            <p><b>Attitude:</b> Has a passion for computer games, wants to learn how to make them</p>
-                            <p><b>Behavior:</b> Uses his PC a lot for gaming, schoolwork and talking to friends. 
-                            Has done some small programming, but wants something bigger</p>
+                            <p><b>Bio:</b> 20 years old, university student, portuguese</p>
+                            <p><b>Attitude:</b> She is outgoing and likes the frontend aspect of software development</p>
+                            <p><b>Behavior:</b> Uses her laptop for college work and some research of her own. 
+                            Wants to put her skills to the test with a more complex project</p>
                         </div>
                         <div className="photo-cover"></div>
                     </div>

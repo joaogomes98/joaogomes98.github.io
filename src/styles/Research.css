@@ -27,7 +27,7 @@
     margin: 0;
 }
 
-.content {
+.Research .content {
     display: flex;
     padding: 0px 80px;
     flex-direction: column;

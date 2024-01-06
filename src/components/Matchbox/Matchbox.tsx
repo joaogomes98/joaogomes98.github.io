@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "../../styles/Matchbox.css";
 import Header from "../Header";
 import Summary from './Summary';
 import Research from './Research';
+import LowFi from './LowFi';
 import { VscFoldDown } from "react-icons/vsc";
 import { VscArrowSmallLeft } from "react-icons/vsc";
+import { useNavigate } from 'react-router-dom';
 
-function Matchbox() {
+const Matchbox: React.FC = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+
+  }, []); 
+
+  const handleClick = (targetRoute: string) => {
+    navigate(targetRoute);
+  };
+
   return (
     <div className="Matchbox">
 
@@ -14,7 +27,7 @@ function Matchbox() {
 
       <div className="landing-section">
         <div className="banner">
-          <div className="button" id="primary">
+          <div className="button" id="primary" onClick={() => handleClick('/')}>
             <VscArrowSmallLeft style={{ fontSize: '2em'}}/>
             To the main page
           </div>
@@ -34,6 +47,8 @@ function Matchbox() {
       <Summary />
 
       <Research />
+
+      <LowFi />
 
     </div>
   );
